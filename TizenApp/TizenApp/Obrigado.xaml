@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenApp.Obrigado"
+             BackgroundColor="White"
+            Padding="50">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Obrigado !" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="Start" 
+                   FontSize="400" TextColor="#ef421f" FontAttributes="Bold"/>
+
+                <Image Source="perfil.png" HorizontalOptions="Center" />
+                <Label Text="Juliano Custódio" 
+                            HorizontalOptions="CenterAndExpand" 
+                            VerticalOptions="Center" 
+                            FontSize="200" TextColor="#434343" FontAttributes="Bold"/>
+                <Label Text="Desenvolvedor na Algorama" 
+                            HorizontalOptions="CenterAndExpand" 
+                            VerticalOptions="Center" 
+                            FontSize="100" TextColor="#434343" />
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="#XamarinOnlineWeek" 
+                            HorizontalOptions="StartAndExpand"  
+                            FontSize="100" TextColor="#ef421f" />
+                    <Label Text="www.julianocustodio.com" 
+                            HorizontalOptions="EndAndExpand"  
+                            FontSize="100" TextColor="#434343" />
+                </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
